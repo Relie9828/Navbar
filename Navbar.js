@@ -32,7 +32,7 @@ window.addEventListener('resize', showButton);
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to="/" className="navbar-logo">
-                        Fomo <i className='fab fa-typo3'/>
+                        Demo <i className='fab fa-typo3'/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
